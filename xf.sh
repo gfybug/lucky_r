@@ -37,10 +37,10 @@ cat <<EOF >/etc/v2ray/config.json
 	]
 }
 EOF
-chmod 766 /usr/bin/v2ray
-ls -la /usr/bin/v2ray
-chmod +x /usr/bin/v2ray
-ls -la /usr/bin/v2ray
+
+
+chmod +x /usr/bin/v2ray/v2ray
+ls -la /usr/bin/v2ray/*
 echo "Install done"
 echo "--------------------------------"
 echo "Fly App Name: ${FLY_APP_NAME}"
