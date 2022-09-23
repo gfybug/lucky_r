@@ -3,7 +3,7 @@
 
 # Set ARG
 UUID=822965a9-861f-49c8-b859-671dd9a7ae13
-ARCH="64"
+#ARCH="64"
 cat <<EOF >/etc/v2ray/config.json
 {
     "log": {
@@ -39,7 +39,6 @@ cat <<EOF >/etc/v2ray/config.json
 EOF
 
 echo "Install done"
-
 echo "--------------------------------"
 echo "Fly App Name: ${FLY_APP_NAME}"
 echo "Fly App Region: ${FLY_REGION}"
