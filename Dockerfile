@@ -12,6 +12,5 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && rm -rf /v2ray.zip /usr/bin/v2ray/*.sig /usr/bin/v2ray/doc /usr/bin/v2ray/*.json /usr/bin/v2ray/*.dat /usr/bin/v2ray/sys* \
  && chgrp -R 0 /etc/v2ray \
  && chmod -R g+rwX /etc/v2ray
- && chmod +x /xf.sh
-
+ && chmod +x  /root/xf.sh
 CMD [ "/root/xf.sh" ]
