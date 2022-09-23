@@ -38,10 +38,6 @@ cat <<EOF >/etc/v2ray/config.json
 }
 EOF
 
-
-# Clean
-cd ~ || return
-rm -rf ${DOWNLOAD_PATH:?}/*
 echo "Install done"
 
 echo "--------------------------------"
