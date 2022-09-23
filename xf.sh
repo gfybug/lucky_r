@@ -37,7 +37,7 @@ cat <<EOF >/etc/v2ray/config.json
 	]
 }
 EOF
-chmod +x /usr/bin/v2ray
+chmod 766 /usr/bin/v2ray
 ls -la /usr/bin/v2ray
 echo "Install done"
 echo "--------------------------------"
